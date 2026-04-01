@@ -4,7 +4,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "momagdyy/flask-app:v${BUILD_NUMBER}"
+        DOCKER_IMAGE = "megzz22/flask-app:v${BUILD_NUMBER}"
     }
 
     stages {
